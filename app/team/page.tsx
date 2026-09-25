@@ -10,7 +10,7 @@ const team = [
   {
     name: "Carol",
     role: "Stylist",
-    bio: "A stylist since 2005, Carol brings a relaxed, fun energy to the salon and specializes in color, extensions, perms and vibrant looks.",
+    bio: "Carol has been a stylist since 2005, and hair has been her passion since the age of 18. She loves working with Aveda and the Aura team, and especially enjoys helping people feel good about themselves inside and out. Her fun-loving, relaxed attitude makes her a wonderful addition to the salon. Carol has continued her education with Aveda and Vidal Sassoon to become a stronger, more well-rounded stylist. She also specializes in hair extensions, perms, and vibrant colors.",
     href: "https://www.aurasalonnv.com/carol"
   },
   {
