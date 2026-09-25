@@ -6,25 +6,29 @@ const team = [
     name: "Jennifer",
     role: "Owner / Stylist",
     bio: "Aveda stylist and Aura Salon owner with a passion for continued education, precision cutting, customized color and creating a great guest experience.",
-    href: "/team/jennifer-utu"
+    href: "/team/jennifer-utu",
+    image: "/team/jennifer.jpg"
   },
   {
     name: "Carol",
     role: "Stylist",
     bio: "A fun-loving, relaxed stylist with a passion for helping guests feel their best, plus specialties in extensions, perms and vibrant color.",
-    href: "/team/carol-roberts"
+    href: "/team/carol-roberts",
+    image: "/team/carol.jpg"
   },
   {
     name: "Rachelle",
     role: "Stylist",
     bio: "Rachelle brings personalized care, creativity and a love of helping guests feel confident in hair that works beautifully for them.",
-    href: "#"
+    href: "#",
+    image: "/team/rachelle.jpg"
   },
   {
     name: "Holly",
     role: "Stylist",
     bio: "A texture-loving stylist specializing in curly and wavy hair, alternative styles, extensions, vivids and lived-in color.",
-    href: "/team/holly-clancy"
+    href: "/team/holly-clancy",
+    image: "/team/holly.jpg"
   }
 ];
 
@@ -46,8 +50,8 @@ export default function TeamPage() {
         <div className="team-grid">
           {team.map((person, index) => (
             <article className="team-card" key={person.name}>
-              <div className={`team-placeholder team-${index + 1}`}>
-                <span>{person.name.slice(0,1)}</span>
+              <div className="team-photo">
+                <img src={person.image} alt={person.name} />
               </div>
               <div className="team-card-body">
                 <h2>{person.name}</h2>
