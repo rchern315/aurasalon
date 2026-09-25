@@ -1,11 +1,11 @@
 import Link from "next/link";
-import { bookingUrl } from "../../data";
+import { bookingUrl, teamImages } from "../../data";
 
 export default function HollyClancyPage() {
   return (
     <section className="stylist-page">
       <div className="shell stylist-layout">
-        <div className="stylist-portrait-photo"><img src="/team/holly.jpg" alt="Holly Clancy" /></div>
+        <div className="stylist-portrait-photo"><img src={teamImages.holly} alt="Holly Clancy" /></div>
         <div className="stylist-copy">
           <p className="eyebrow">Stylist</p>
           <h1>Holly Clancy</h1>
