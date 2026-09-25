@@ -20,9 +20,9 @@ const team = [
     href: "#"
   },
   {
-    name: "Holly",
+    name: "Holly Clancy",
     role: "Stylist",
-    bio: "A stylist since 2003, Holly specializes in texture, curly and wavy hair, alternative styles, extensions, vivids and lived-in color.",
+    bio: "Holly has been creating hair since 2003, starting in Chicago before making her move to Reno in 2024. A former haircutting specialist in a departmentalized salon, she brings skill and intention to every cut—especially when it comes to curly and wavy hair. Texture is her thing, and she knows how to shape it, enhance it, and make it work in real life. Holly thrives in creative expression—from alternative styles and extensions to bold vivids and perfectly melted, lived-in color. Whether you want something low-maintenance and dimensional or loud and unapologetic, she’s here for it. When she’s not behind the chair, she’s with her two kids, husband, and her goofy dogs. She’ll never pass up a chance to dress up and loves staying active, being outdoors, and getting lost in music, history, books, theater—and anything a little spooky.",
     href: "https://www.aurasalonnv.com/copy-of-jennifer"
   }
 ];
