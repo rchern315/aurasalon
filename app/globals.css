@@ -189,3 +189,12 @@ h3{margin:.4rem 0;font-weight:600}
 .team-photo img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
 .stylist-portrait-photo{width:100%;max-width:560px;aspect-ratio:4/5;overflow:hidden;background:#f1f1ee}
 .stylist-portrait-photo img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
+
+.policy-page{max-width:1000px}
+.policy-copy{max-width:820px;margin:0 auto}
+.policy-copy h2{font-size:36px;margin-top:42px;margin-bottom:12px}
+.policy-copy h2:first-child{margin-top:0}
+.policy-copy p{font-family:Georgia,'Times New Roman',serif;font-size:18px;line-height:1.75;color:#383a35}
+.policy-thanks{font-style:italic;margin:44px 0 30px}
+.about-links{padding-top:0}
+.about-links .contact-card{max-width:760px}
