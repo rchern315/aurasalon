@@ -4,7 +4,7 @@ const team = [
   {
     name: "Jennifer",
     role: "Owner / Stylist",
-    bio: "An Aveda stylist since 2006, Jennifer is passionate about continued education, customized color, precision cutting and creating a thoughtful guest experience.",
+    bio: "Jennifer Utu has been an Aveda stylist since 2006 and is the owner of Aura Salon. She has taken Aveda and Vidal Sassoon classes and believes the beauty industry is always evolving, making continuous education essential for setting a stylist apart. Jennifer enjoys all levels of hair services, from precision cutting and customized color to creating an experience that leaves every guest feeling happy and confident. She stands behind Aveda’s mission and truly believes in the quality of its product and color lines.",
     href: "https://www.aurasalonnv.com/jennifer"
   },
   {
