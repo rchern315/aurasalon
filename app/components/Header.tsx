@@ -17,7 +17,6 @@ export default function Header() {
           <Link href="/services">Services</Link>
           <Link href="/aveda">Aveda</Link>
           <Link href="/team">Our Team</Link>
-          <Link href="/gallery">Gallery</Link>
           <Link href="/about">About</Link>
           <Link href="/contact">Contact</Link>
         </nav>
