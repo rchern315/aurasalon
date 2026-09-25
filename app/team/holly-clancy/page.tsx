@@ -8,7 +8,7 @@ export default function HollyClancyPage() {
         <div className="stylist-portrait team-placeholder team-4"><span>H</span></div>
         <div className="stylist-copy">
           <p className="eyebrow">Stylist</p>
-          <h1>Holly Clancy</h1>
+          <h1>Holly</h1>
           <p>
             Holly has been creating hair since 2003, starting in Chicago before making her move
             to Reno in 2024. A former haircutting specialist in a departmentalized salon, she
