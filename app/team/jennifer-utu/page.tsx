@@ -8,7 +8,7 @@ export default function JenniferUtuPage() {
         <div className="stylist-portrait team-placeholder team-1"><span>J</span></div>
         <div className="stylist-copy">
           <p className="eyebrow">Owner / Stylist</p>
-          <h1>Jennifer Utu</h1>
+          <h1>Jennifer</h1>
           <p>
             Jennifer Utu has been an Aveda stylist since 2006 and is the owner of Aura Salon.
             She has taken Aveda and Vidal Sassoon classes and believes that the beauty industry
