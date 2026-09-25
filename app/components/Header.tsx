@@ -17,7 +17,17 @@ export default function Header() {
           <Link href="/services">Services</Link>
           <Link href="/aveda">Aveda</Link>
           <Link href="/team">Our Team</Link>
-          <Link href="/about">About</Link>
+
+          <div className="nav-dropdown">
+            <Link className="nav-dropdown-trigger" href="/about">
+              About
+              <span className="nav-caret" aria-hidden="true">▾</span>
+            </Link>
+            <div className="nav-submenu" aria-label="About submenu">
+              <Link href="/about/policies">Policies</Link>
+            </div>
+          </div>
+
           <Link href="/contact">Contact</Link>
         </nav>
 
