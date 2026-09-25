@@ -11,7 +11,7 @@ export default function Footer() {
           <Link className="brand footer-brand" href="/">
             <span className="brand-word">AURA</span>
             <span className="brand-leaf" aria-hidden="true" />
-            <span className="brand-sub">AN AVEDA SALON</span>
+            <span className="brand-sub">AVEDA SALON</span>
           </Link>
         </div>
         <div>
