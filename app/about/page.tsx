@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { images } from "../data";
 
 export default function AboutPage() {
@@ -7,6 +8,14 @@ export default function AboutPage() {
       <section className="editorial-split">
         <div className="editorial-photo" style={{ backgroundImage: `url("${images.arches}")` }} />
         <div className="editorial-copy"><p className="eyebrow">Our Salon</p><h2>Warm, modern and unmistakably Aura.</h2><p>Aura combines a clean, modern salon environment with the easygoing energy of a neighborhood favorite. The goal is simple: make every guest feel comfortable, heard and excited about their hair.</p></div>
+      </section>
+      <section className="section shell about-links">
+        <div className="contact-card">
+          <p className="eyebrow">Guest Information</p>
+          <h2>Salon Policies</h2>
+          <p>Review appointment, payment, return and gift card policies before your visit.</p>
+          <Link className="text-link" href="/about/policies">View Policies →</Link>
+        </div>
       </section>
     </>
   );
