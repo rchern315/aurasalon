@@ -3,13 +3,13 @@ import { bookingUrl, images } from "../data";
 
 const team = [
   {
-    name: "Jennifer Utu",
+    name: "Jennifer",
     role: "Owner / Stylist",
     bio: "Aveda stylist and Aura Salon owner with a passion for continued education, precision cutting, customized color and creating a great guest experience.",
     href: "/team/jennifer-utu"
   },
   {
-    name: "Carol Roberts",
+    name: "Carol",
     role: "Stylist",
     bio: "A fun-loving, relaxed stylist with a passion for helping guests feel their best, plus specialties in extensions, perms and vibrant color.",
     href: "/team/carol-roberts"
@@ -21,7 +21,7 @@ const team = [
     href: "#"
   },
   {
-    name: "Holly Clancy",
+    name: "Holly",
     role: "Stylist",
     bio: "A texture-loving stylist specializing in curly and wavy hair, alternative styles, extensions, vivids and lived-in color.",
     href: "/team/holly-clancy"
