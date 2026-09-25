@@ -227,3 +227,44 @@ h3{margin:.4rem 0;font-weight:600}
   .offer-badge,.offer-referral-copy{left:18px;top:18px;right:18px;max-width:none;padding:22px}
   .offer-badge strong,.offer-referral-copy strong{font-size:32px}
 }
+
+
+/* About navigation submenu */
+.nav-dropdown{position:relative;display:flex;align-items:center}
+.nav-dropdown-trigger{display:flex;align-items:center;gap:6px}
+.nav-caret{font-size:10px;line-height:1;transition:transform .2s ease}
+.nav-submenu{
+  position:absolute;
+  top:calc(100% - 2px);
+  left:50%;
+  min-width:160px;
+  padding:10px;
+  background:#20211f;
+  border:1px solid #ffffff24;
+  box-shadow:0 16px 36px #0000002b;
+  opacity:0;
+  visibility:hidden;
+  transform:translate(-50%,8px);
+  transition:opacity .18s ease,transform .18s ease,visibility .18s ease;
+}
+.nav-submenu a{
+  display:block;
+  padding:11px 14px !important;
+  border-bottom:0 !important;
+  white-space:nowrap;
+}
+.nav-submenu a:hover,
+.nav-submenu a:focus-visible{
+  background:#ffffff10;
+  color:#b6d66e;
+}
+.nav-dropdown:hover .nav-submenu,
+.nav-dropdown:focus-within .nav-submenu{
+  opacity:1;
+  visibility:visible;
+  transform:translate(-50%,0);
+}
+.nav-dropdown:hover .nav-caret,
+.nav-dropdown:focus-within .nav-caret{
+  transform:rotate(180deg);
+}
