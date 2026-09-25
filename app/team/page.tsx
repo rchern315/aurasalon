@@ -20,7 +20,7 @@ const team = [
     name: "Rachelle",
     role: "Stylist",
     bio: "Rachelle brings personalized care, creativity and a love of helping guests feel confident in hair that works beautifully for them.",
-    href: "#",
+    href: "/team/rachelle",
     image: "/team/rachelle.jpg"
   },
   {
