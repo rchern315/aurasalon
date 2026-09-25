@@ -5,7 +5,7 @@ export default function JenniferUtuPage() {
   return (
     <section className="stylist-page">
       <div className="shell stylist-layout">
-        <div className="stylist-portrait team-placeholder team-1"><span>J</span></div>
+        <div className="stylist-portrait-photo"><img src="/team/jennifer.jpg" alt="Jennifer Utu" /></div>
         <div className="stylist-copy">
           <p className="eyebrow">Owner / Stylist</p>
           <h1>Jennifer Utu</h1>
