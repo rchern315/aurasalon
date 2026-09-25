@@ -8,7 +8,7 @@ export default function CarolRobertsPage() {
         <div className="stylist-portrait team-placeholder team-2"><span>C</span></div>
         <div className="stylist-copy">
           <p className="eyebrow">Stylist</p>
-          <h1>Carol</h1>
+          <h1>Carol Roberts</h1>
           <p>
             Carol has been a stylist since 2005. Hair has always been her passion since the age
             of 18. Carol loves working with Aveda and our team. She really enjoys making people
