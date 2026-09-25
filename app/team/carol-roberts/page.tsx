@@ -1,11 +1,11 @@
 import Link from "next/link";
-import { bookingUrl } from "../../data";
+import { bookingUrl, teamImages } from "../../data";
 
 export default function CarolRobertsPage() {
   return (
     <section className="stylist-page">
       <div className="shell stylist-layout">
-        <div className="stylist-portrait-photo"><img src="/team/carol.jpg" alt="Carol Roberts" /></div>
+        <div className="stylist-portrait-photo"><img src={teamImages.carol} alt="Carol Roberts" /></div>
         <div className="stylist-copy">
           <p className="eyebrow">Stylist</p>
           <h1>Carol Roberts</h1>
