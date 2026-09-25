@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { bookingUrl, images } from "../data";
+import { bookingUrl, images, teamImages } from "../data";
 
 const team = [
   {
@@ -7,28 +7,28 @@ const team = [
     role: "Owner / Stylist",
     bio: "Aveda stylist and Aura Salon owner with a passion for continued education, precision cutting, customized color and creating a great guest experience.",
     href: "/team/jennifer-utu",
-    image: "/team/jennifer.jpg"
+    image: teamImages.jennifer
   },
   {
     name: "Carol",
     role: "Stylist",
     bio: "A fun-loving, relaxed stylist with a passion for helping guests feel their best, plus specialties in extensions, perms and vibrant color.",
     href: "/team/carol-roberts",
-    image: "/team/carol.jpg"
+    image: teamImages.carol
   },
   {
     name: "Rachelle",
     role: "Stylist",
     bio: "Rachelle brings personalized care, creativity and a love of helping guests feel confident in hair that works beautifully for them.",
     href: "/team/rachelle",
-    image: "/team/rachelle.jpg"
+    image: teamImages.rachelle
   },
   {
     name: "Holly",
     role: "Stylist",
     bio: "A texture-loving stylist specializing in curly and wavy hair, alternative styles, extensions, vivids and lived-in color.",
     href: "/team/holly-clancy",
-    image: "/team/holly.jpg"
+    image: teamImages.holly
   }
 ];
 
