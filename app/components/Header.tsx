@@ -10,7 +10,7 @@ export default function Header() {
         <Link className="brand" href="/" aria-label="Aura Salon home">
           <span className="brand-word">AURA</span>
           <span className="brand-leaf" aria-hidden="true" />
-          <span className="brand-sub">AN AVEDA SALON</span>
+          <span className="brand-sub">AVEDA SALON</span>
         </Link>
 
         <nav className="main-nav" aria-label="Primary navigation">
