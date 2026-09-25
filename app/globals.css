@@ -198,3 +198,32 @@ h3{margin:.4rem 0;font-weight:600}
 .policy-thanks{font-style:italic;margin:44px 0 30px}
 .about-links{padding-top:0}
 .about-links .contact-card{max-width:760px}
+
+
+.offers-section{padding:92px 0;background:var(--cream);border-top:1px solid var(--line)}
+.offers-heading{margin-bottom:42px}
+.offer-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+.offer-card{background:white;border:1px solid var(--line);overflow:hidden}
+.offer-image,.offer-referral-visual{min-height:390px;position:relative;background-size:cover;background-position:center}
+.offer-image::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#00000044,transparent 70%)}
+.offer-badge,.offer-referral-copy{position:absolute;z-index:2;left:34px;top:34px;max-width:300px;padding:30px;background:#ffffffd9;backdrop-filter:blur(4px)}
+.offer-badge span,.offer-referral-copy span{display:block;text-transform:uppercase;letter-spacing:.14em;font-size:12px;font-weight:700;color:var(--green-dark);margin-bottom:12px}
+.offer-badge strong,.offer-referral-copy strong{display:block;font-size:40px;line-height:1.12;text-transform:uppercase;letter-spacing:.03em;font-weight:500}
+.offer-referral-visual{background:
+  radial-gradient(circle at 25% 30%, #d6efbf 0 18%, transparent 19%),
+  radial-gradient(circle at 70% 40%, #bee39f 0 22%, transparent 23%),
+  linear-gradient(135deg,#9acb68,#5f8f38)}
+.offer-referral-copy{background:#285e20de;color:white}
+.offer-referral-copy span{color:#e7f4d6}
+.offer-body{padding:34px}
+.offer-body h3{font-family:Georgia,'Times New Roman',serif;font-size:34px;font-weight:400;margin:0 0 14px}
+.offer-body>p:not(.offer-terms){font-size:17px;color:#4b4d45;max-width:580px}
+.offer-terms{font-size:12px;color:#696b62;margin-top:22px}
+@media (max-width:900px){
+  .offer-grid{grid-template-columns:1fr}
+}
+@media (max-width:560px){
+  .offer-image,.offer-referral-visual{min-height:310px}
+  .offer-badge,.offer-referral-copy{left:18px;top:18px;right:18px;max-width:none;padding:22px}
+  .offer-badge strong,.offer-referral-copy strong{font-size:32px}
+}
